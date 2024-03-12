@@ -9,14 +9,22 @@ is hosted [here][website-theme].
 [hugo]: https://gohugo.io
 [sass]: https://sass-lang.com/dart-sass
 [github]: https://github.com/mypaint/website
-[github]: https://github.com/mypaint/website-theme
+[website-theme]: https://github.com/mypaint/website-theme
 
 # Contributing
 To build this repository:
-1. Install hugo-extended, dart sass, and [git-lfs](https://git-lfs.com/)
+1. Install [hugo-extended][hugo-release], [dart sass][sass-release], and [git-lfs](https://git-lfs.com/)
 2. Clone this repo
 3. Run ``git submodule update --init``
 4. Run ``hugo`` or ``hugo server``
+
+[hugo-release]: https://github.com/gohugoio/hugo/releases
+[sass-release]: https://github.com/sass/dart-sass/releases
+
+## Update submodules
+When [website-theme][website-theme] or other submodules are updated, use
+``git submodule update --recursive --remote`` to reflect the changes in
+your development environment.
 
 ## Adding content
 Page content is stored in the [pages](/pages/) directory. Pages are written in
