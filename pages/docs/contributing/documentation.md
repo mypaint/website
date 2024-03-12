@@ -68,8 +68,7 @@ source code.
 GUI changes are drafted in the docs, and then applied per those specifications in
 the program.
 
-# Using Software
-## Hugo
+# Using Hugo
 This section details how to create and modify pages for this website. The MyPaint
 website is created using [Hugo][hugo], a [static site generator][ssg]. Pages are
 written in [Markdown][md] (here's a [guide][md-guide]).
@@ -77,15 +76,39 @@ written in [Markdown][md] (here's a [guide][md-guide]).
 [hugo]: https://gohugo.io/
 [ssg]: https://en.wikipedia.org/wiki/Static_site_generator
 [md]: https://en.wikipedia.org/wiki/Markdown
-[md-guide]: https://www.markdownguide.org/
+[md-guide]: https://gohugo.io/content-management/formats/#learn-markdown
 
-Quick start (Desktop):
-- At the left side of this page, there's an aside menu with a *"Page Information"* heading.
-- Under the *Page Information* heading, there is a link to the source markdown file
-for this page. Click it.
-- Start getting your bearings by comparing what you see on the source file to what
+## Quick Start
+1. At the left side of this page, there is an aside menu with the *"Page Information"*
+heading.
+2. Under the *"Page Information"* heading, there is a link to the source markdown
+file for this page. Click it.
+3. Start getting your bearings by comparing what you see on the source file to what
 you see on this page.
 
+### Building The Site Locally
+1. Install [hugo-extended][hugo-release], [dart sass][sass-release], and [git-lfs][git-lfs]
+2. Clone the website [repository][website]
+3. Run ``git submodule update --init``
+4. Run ``hugo`` or ``hugo server``
+
+#### Update submodules
+When the [website-theme][website-theme] or other submodules are updated, use
+``git submodule update --recursive --remote`` to reflect the changes in
+your development environment.
+
+#### Adding content
+Page content is stored in the pages directory. To add a new page to the website,
+type ``hugo new content pages/path/to/filename.md``.
+
+[website]: https://github.com/mypaint/website
+[website-pages]: https://github.com/mypaint/website/tree/main/pages
+[website-theme]: https://github.com/mypaint/website-theme
+[hugo-release]: https://github.com/gohugoio/hugo/releases
+[sass-release]: https://github.com/sass/dart-sass/releases
+[git-lfs]: https://git-lfs.com/
+
+## Conventions
 Conventions to follow when creating or modifying pages:
 - Break lines before the word that *starts* after the 80th column
 - Pages have [summaries][hugo-summary] generated from page content or front matter.
@@ -95,19 +118,18 @@ They may be created:
     3. In front matter, using the ``summary`` key.
     - **Try to avoid the first case here and instead use case 2 or 3.**
 
-### Other
-- {{< id "main-image" >}}**Main page image:**{{< /id >}} [Page bundles][hugo-bundle] may include a file named ``index.jpg`` or ``index.png``,
-preferrably accompanied with the [imgAlt front matter]({{< relref "#imgalt" >}}).
+{{< id "main-image" >}}**Main page image:**{{< /id >}} [Page bundles][hugo-bundle] may include a file named ``index.jpg`` or ``index.png``,
+preferrably accompanied with [imgAlt front matter]({{< relref "#imgalt" >}}).
 Such image files will:
-    - Render the image behind the page title.
-    - Add meta image tags (for e.g. [OpenGraph][opengraph])
+- Render the image behind the page title.
+- Add meta image tags (for e.g. [OpenGraph][opengraph])
 
 [hugo-bundle]: https://gohugo.io/content-management/page-bundles/
 [opengraph]: https://ogp.me/
 
-### Front Matter
-Front matter is used to store a page's metadata. Refer to [this page](https://gohugo.io/content-management/front-matter/).
-to learn how to use front matter. This site's front matter is written in [TOML](https://toml.io/en/).
+## Front Matter
+[Front matter][hugo-front-matter] is used to store a page's metadata.
+This site's front matter is written in [TOML](https://toml.io/en/).
 
 |Name|Value|Optional?|Description|
 |:---|:----|:--------|:----------|
@@ -122,9 +144,12 @@ to learn how to use front matter. This site's front matter is written in [TOML](
 
 [rfc-3339]: https://datatracker.ietf.org/doc/html/rfc3339
 [hugo-draft]: https://gohugo.io/methods/page/draft/
+[hugo-front-matter]: https://gohugo.io/content-management/front-matter/
 [hugo-summary]: https://gohugo.io/content-management/summaries/
 
-#### List Pages
+### List Pages
+Front matter specific to [list pages][hugo-list]
+
 |Name|Value|Optional?|Description|
 |:---|:----|:--------|:----------|
 |hideSummary|Boolean|Yes|Don't render the summary in the page body|
@@ -132,11 +157,14 @@ to learn how to use front matter. This site's front matter is written in [TOML](
 |listByTitle|Boolean|Yes|Render list items alphabetically instead of by date|
 |reverseList|Boolean|Yes|Reverse the order of list items|
 
-### Shortcodes
-Shortcodes extend markdown with custom HTML templates. Refer to [this page](https://gohugo.io/content-management/shortcodes/)
-to learn how to use shortcodes.
+[hugo-list]: https://gohugo.io/templates/lists/
 
-#### Useful Hugo Builtin Shortcodes
+## Shortcodes
+[Shortcodes][hugo-shortcodes] extend markdown with custom HTML templates.
+
+[hugo-shortcodes]: https://gohugo.io/content-management/shortcodes/
+
+### Useful Hugo Builtin Shortcodes
 |Shortcode|Type|Parameters|Description|
 |:--------|:---|:---------|:----------|
 |[``ref``][hugo-ref]|Inline|``0``: Path|Create an [anchor][html-a] to the specified page|
@@ -145,7 +173,7 @@ to learn how to use shortcodes.
 [hugo-ref]: https://gohugo.io/methods/shortcode/ref/
 [hugo-relref]: https://gohugo.io/methods/shortcode/relref/
 
-#### Custom Shortcodes
+### Custom Shortcodes
 |Shortcode|Type|Parameters|Description|
 |:--------|:---|:---------|:----------|
 |``button``|Inline|``content``: string, [``href``][html-a-href]: path, [``src``][html-img-src]|Add a styled [anchor][html-a] labelled ``content`` with an image (optional)|
@@ -176,8 +204,8 @@ to learn how to use shortcodes.
 [html-img-src]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#src
 [html-span]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span
 
-## Python
-### Docstrings
+# Documenting Python
+## Docstrings
 We seem to be settling on [Sphinx](http://sphinx-doc.org/)'s [autodoc syntax](http://sphinx-doc.org/ext/autodoc.html#module-sphinx.ext.autodoc) for writing docstrings. Where it doesn't contradict, please follow [PEP 257](http://www.python.org/dev/peps/pep-0257/) too.
 
 Python code should always have docstrings describing _what_ a public function or class does. We would like to use Sphinx's `autodoc` to generate API documentation one day, but conventions have not yet been settled for it. For now, please document parameters using Sphinx-style [info field lists](http://www.sphinx-doc.org/en/stable/domains.html#info-field-lists), and try not to use too much additional ReStructuredText markup.
