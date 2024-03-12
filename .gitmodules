@@ -1,3 +1,4 @@
 [submodule "themes/mypaint"]
 	path = themes/mypaint
 	url = git@github.com:mypaint/website-theme
+	branch = main
