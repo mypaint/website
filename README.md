@@ -30,6 +30,8 @@ your development environment.
 Page content is stored in the [pages](/pages/) directory. Pages are written in
 [markdown][hugo-learn-md] and [extended][hugo-content] by Hugo.
 
+To add a new page to the website, type ``hugo new content pages/path/to/filename.md``.
+
 [hugo-learn-md]: https://gohugo.io/content-management/formats/#learn-markdown
 [hugo-content]: https://gohugo.io/content-management/
 
@@ -41,5 +43,5 @@ writing documentation.
 All text in the website is licensed under [CC-BY-SA 4.0][cc-by-sa].
 Additional terms may apply.
 
-[developer-docs]: https://mypaint.org/design/contributing/documentation
+[developer-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
