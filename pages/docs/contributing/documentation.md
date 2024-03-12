@@ -7,18 +7,22 @@ it. Good documentation is vital for everyone. Any sort of improvement, including
 fixing typos and improving readability, is greatly appreciated.<!--more-->
 
 Want to help improve our documentation but don't know where to start? Our issue
-tracker contains issues with the documentation.
+tracker contains problems with the website and documentation. Use our [git workflow]({{< relref "/docs/contributing/git" >}})
+when contributing improvements/fixes.
 {{< flex >}}
+    {{< button content="Report an Issue"
+href="https://github.com/mypaint/website/issues/new/choose" >}}
     {{< button content="User Documentation Issues"
 href="https://github.com/mypaint/mypaint/issues?q=is%3Aopen+is%3Aissue+label%3Acat.docs.user" >}}
     {{< button content="Developer Documentation Issues"
 href="https://github.com/mypaint/mypaint/issues?q=is%3Aopen+is%3Aissue+label%3Acat.docs.dev" >}}
 {{< /flex >}}
 
+
 # Blogs & User Guides
-This is the meat and bones of the project's documentation efforts. Ensuring users
-have a solid understanding of the MyPaint application's functionality through user
-guides, and new versions through release notes is vital to a healthy version lifecycle.
+Ensuring users have a solid understanding of the MyPaint application's functionality
+through user guides, and new versions through release notes is vital to a healthy
+version lifecycle.
 
 ## Tone and Writing Style
 - Page titles and headings should be in title case.
@@ -31,18 +35,22 @@ your preferred dialect of English is okay to use.
 
 ## Translation
 If a page is complete, please consider translating it into other languages. MyPaint's
-design documentation aims to be a single source of truth, so decidedlly *not* translating
-it reduces overhead.
+contributor documentation aims to be a single source of truth, so decidedlly *not*
+translating it reduces overhead.
 
-[Hugo's page on multilingual content](https://gohugo.io/content-management/multilingual/)
+Translate a page by prepending the ``.md`` exntension with a [language code][website-languages].
+e.g. to localise this page to Japanese, [create a page]({{< relref "#adding-content" >}})
+named ``documentation.ja.md``.
+
+[website-languages]: https://github.com/mypaint/website/blob/main/config/_default/languages.toml
 
 Please also consider [translating MyPaint (the program)]({{<relref "translating/adding-translations" >}}).
 
 # Developer Documentation
-As a MyPaint developer, you are entrusted to keep the project's developer documentation
-up-to-date. Poor or missing documentation is an obstacle to new contributors, and
-you can help combat this by writing documentation. If you are new to technical writing,
-here are some resources to get you started:
+Poor or missing documentation is an obstacle to new contributors, you can help prevent
+this by writing documentation.
+
+If you are new to technical writing, here are some resources to get you started:
 - [MDN Web Docs' blog post][mdn-tech-writing]
 - [Google's courses][google-tech-writing]
 - [FreeCodeCamp's articles][fcc-tech-writing]
@@ -52,14 +60,14 @@ here are some resources to get you started:
 [fcc-tech-writing]: https://www.freecodecamp.org/news/tag/technical-writing/
 
 ## Backend
-Backend docs exist for two reasons:
+Backend docs exist for two reasons, to:
+1. Help *new* developers understand MyPaint's general design as quickly as possible.
+2. Scope files/directories by describing them.
 
-1. To act as a primer given to *new* developers so that they can get started as
-quickly as possible. They're presented to the reader as:
-    1. Here's a file/concept.
-    2. This is the gist of what you need to know.
-    3. You're now prepared to read through the code and understand the specifics.
-2. To help scope files/directories by describing them.
+They are presented to the reader as:
+1. Here's a file/concept.
+2. This is the gist of what you need to know.
+3. You're now prepared to read through the code and understand the specifics.
 
 The most detailed documentation for the project will *always* be contained within
 source code.
@@ -86,18 +94,18 @@ file for this page. Click it.
 3. Start getting your bearings by comparing what you see on the source file to what
 you see on this page.
 
-### Building The Site Locally
+## Build the Site Locally
 1. Install [hugo-extended][hugo-release], [dart sass][sass-release], and [git-lfs][git-lfs]
 2. Clone the website [repository][website]
 3. Run ``git submodule update --init``
 4. Run ``hugo`` or ``hugo server``
 
-#### Update submodules
+### Update Submodules
 When the [website-theme][website-theme] or other submodules are updated, use
 ``git submodule update --recursive --remote`` to reflect the changes in
 your development environment.
 
-#### Adding content
+### Adding Content
 Page content is stored in the pages directory. To add a new page to the website,
 type ``hugo new content pages/path/to/filename.md``.
 

@@ -21,9 +21,8 @@ to changes in the code.
 - Split commits logically, either by being selective with files, or [staging interactively][git-interactive-staging].
 
 ## Dead Code
-Dead code, also known as commented-out code, has the potential to cause a lot of
-harm as commented-out code quickly becomes out of date and misleading. We have version
-control anyway, so people can just look at the commit log.
+Dead code, also known as commented-out code quickly becomes out of date and misleading.
+Do not include any in your pull request.
 
 ## Writing Commit Messages
 Each commit you contribute should have a good commit message. Here's an example
@@ -56,7 +55,7 @@ from your forked repository.
 - If a commit fixes an issue, write a message that [automatically closes the
 issue][github-close-issue] when merged.
 
-# Workflow for Maintainers
+# Maintainers
 ## Git Branches
 ```mermaid
 ---
