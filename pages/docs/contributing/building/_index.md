@@ -15,8 +15,10 @@ src="/icons/brands/windows.svg" >}}
 # First Party Dependencies
 These dependencies are developed by the MyPaint project.
 
-{{< button content="Building libmypaint" href="libmypaint" >}}
-{{< button content="Building MyPaint Brushes" href="brushes" >}}
+{{< flex >}}
+    {{< button content="Building libmypaint" href="libmypaint" >}}
+    {{< button content="Building MyPaint Brushes" href="brushes" >}}
+{{< /flex >}}
 
 ## User Installation
 You don't need to install first party dependencies in user directories (i.e. not
