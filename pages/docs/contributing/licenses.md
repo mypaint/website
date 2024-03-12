@@ -97,7 +97,7 @@ Attribution-ShareAlike 4.0 International][CC-BY-SA] license.
 # Using licenses
 ## Exclusive Usage Rights
 ### Artists
-1. Upload the image on the community forums
+1. Upload the image on the [community forums]({{< paramref "social.Discourse" >}})
 2. In the post, give the project permission for where you want to let us use it.
 
 ### Maintainers

@@ -191,6 +191,7 @@ Front matter specific to [list pages][hugo-list]
 |``id``|Content|``0``: string|Enclose the contained content in a [``span``][html-span] tag with [``id="0"``][html-attr-id]|
 |``img``|Inline|[``alt``][html-img-alt]: string, [``src``][html-img-src]: path, ``caption``: string, [``float``][css-float], [``width``][css-max-width] |Insert an [image][html-img]|
 |``md``|Content|None|Renders markdown in contained content (for [shortcodes without markdown][hugo-shortcode-nomd])|
+|``paramref``|Inline|``0``: [Site parameter][hugo-params]|Like [``ref``][hugo-ref], but with a site parameter|
 
 [css-align]: https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
 [css-color]: https://developer.mozilla.org/en-US/docs/Web/CSS/color
