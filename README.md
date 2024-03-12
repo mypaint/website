@@ -2,13 +2,13 @@
 This repository holds the page data for [MyPaint.org][mypaint]. It uses the [Hugo][hugo]
 static site generator and [Dart Sass][sass].
 
-The official MyPaint website repository is hosted on [GitHub][github]. The theme
+The official MyPaint website repository is hosted on [GitHub][website]. The theme
 is hosted [here][website-theme].
 
 [mypaint]: https://mypaint.org
 [hugo]: https://gohugo.io
 [sass]: https://sass-lang.com/dart-sass
-[github]: https://github.com/mypaint/website
+[website]: https://github.com/mypaint/website
 [website-theme]: https://github.com/mypaint/website-theme
 
 # Contributing
@@ -22,7 +22,7 @@ To build this repository:
 [sass-release]: https://github.com/sass/dart-sass/releases
 
 ## Update submodules
-When [website-theme][website-theme] or other submodules are updated, use
+When the [website-theme][website-theme] or other submodules are updated, use
 ``git submodule update --recursive --remote`` to reflect the changes in
 your development environment.
 
