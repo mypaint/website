@@ -1,0 +1,20 @@
+title = "MyPaint"
+baseURL = 'https://mypaint.org/'
+theme = "mypaint"
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+contentDir = 'pages'
+enableGitInfo = true
+
+[markup]
+[markup.highlight]
+noClasses = false
+[markup.tableOfContents]
+startLevel = 1
+[markup.goldmark.renderer]
+unsafe = true
+
+[permalinks]
+[permalinks.page]
+blog = '/blog/:year/:month/:day/:slug'

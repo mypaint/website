@@ -1,0 +1,35 @@
+siteDescription = """
+MyPaint is an easy-to-use painting program which works well with Wacom graphics
+tablets and other similar devices. It comes with a large brush collection including
+charcoal and ink to emulate real media, but the highly configurable brush engine
+allows you to experiment with your own brushes and with not-quite-natural painting.
+"""
+siteKeywords = "application, art, drawing, FOSS, software"
+gitRepo = "https://github.com/aesarab/mypaint-website"
+
+[downloads]
+github = "https://github.com/mypaint/mypaint/releases"
+[downloads.linux]
+appimage = "https://github.com/mypaint/mypaint/releases/download/v2.0.1/MyPaint-v2.0.1.AppImage"
+ver = "v2.0.1"
+flathub = "https://flathub.org/apps/org.mypaint.MyPaint"
+flathubVer = "v2.0.1"
+rolling = "https://github.com/mypaint/mypaint-appimage/releases"
+[downloads.macos]
+macports = "https://ports.macports.org/port/MyPaint/"
+macportsVer = "v2.0.1"
+[downloads.windows]
+archive = "https://github.com/mypaint/mypaint/releases/download/v2.0.1/mypaint-w64-2.0.1-standalone.7z"
+installer = "https://github.com/mypaint/mypaint/releases/download/v2.0.1/mypaint-w64-2.0.1-installer.exe"
+ver = "v2.0.1"
+chocolatey = "https://chocolatey.org/packages/mypaint/"
+chocolateyVer = "v2.0.1"
+rolling = "https://ci.appveyor.com/project/achadwick/mypaint"
+
+[social]
+DeviantArt = "http://mypaint.deviantart.com/"
+Discord = "https://discord.gg/TzCbFSCdwf"
+Discourse = "https://community.mypaint.org/"
+github = "https://github.com/mypaint"
+Mastodon = "https://mastodon.art/@MyPaint"
+YouTube = "https://www.youtube.com/@MyPaintApp"

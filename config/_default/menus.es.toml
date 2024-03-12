@@ -1,0 +1,30 @@
+[[main]]
+	identifier = 'blogpage'
+	name = 'Blog'
+	title = "Articles by the MyPaint project team"
+	url = '/en/blog'
+	weight = 10
+[[main]]
+	identifier = 'guidepage'
+	name = 'Documentation'
+	title = "Official MyPaint documentation"
+	url = '/es/docs'
+	weight = 20
+[[main]]
+	identifier = 'homepage'
+	name = 'MyPaint'
+	title = "Homepage"
+	url = '/'
+	weight = 30
+[[main]]
+	identifier = 'communitypage'
+	name = 'Community'
+	title = "MyPaint's community forums"
+	url = 'https://community.mypaint.org'
+	weight = 40
+[[main]]
+	identifier = 'donatepage'
+	name = 'Donate'
+	title = "Donate to the MyPaint project"
+	url = '/en/donate'
+	weight = 50

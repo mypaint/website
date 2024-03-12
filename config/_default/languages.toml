@@ -1,0 +1,24 @@
+[en]
+disabled = false
+weight = 514
+languageCode = 'en'
+languageDirection = 'ltr'
+languageName = 'English'
+[es]
+disabled = false
+weight = 519
+languageCode = 'es'
+languageDirection = 'ltr'
+languageName = 'Español'
+[fr]
+disabled = false
+weight = 618
+languageCode = 'fr'
+languageDirection = 'ltr'
+languageName = 'Français'
+[ja]
+disabled = false
+weight = 1001
+languageCode = 'ja'
+languageDirection = 'ltr'
+languageName = '日本語'
