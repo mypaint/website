@@ -43,5 +43,5 @@ writing documentation.
 All text in the website is licensed under [CC-BY-SA 4.0][cc-by-sa].
 Additional terms may apply.
 
-[developer-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation
+[developer-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation/#hugo
 [cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
