@@ -19,21 +19,18 @@ href="https://github.com/mypaint/mypaint/issues?q=is%3Aopen+is%3Aissue+label%3Ac
 {{< /flex >}}
 
 
-# Blogs & User Guides
-Ensuring users have a solid understanding of the MyPaint application's functionality
-through user guides, and new versions through release notes is vital to a healthy
-version lifecycle.
-
-## Tone and Writing Style
-- Page titles and headings should be in title case.
+# Tone & Writing Style
+- Readers visit a page for a reason, understand that reason when writing a page.
+- Use informative, but *concise* language.
+    - Avoid large paragraphs when possible.
 - Write using language understandable by a 12 to 14 year old.
-- The MyPaint project has contributors across the world, and doesn't prescribe the
-use of any one dialect. As long as it's clearly understood by most English readers,
-your preferred dialect of English is okay to use.
 - Do not assume readers' level of technical or artistic skill.
-    - Avoid using "just" or "simply" when giving instructions.
+    - e.g. Avoid using "just" or "simply" when giving instructions.
+- Use your preferred dialect of English, as long as it's clearly understood by most
+English readers.
+- Page titles and headings should be in title case.
 
-## Translation
+# Translating Pages
 If a page is complete, please consider translating it into other languages. MyPaint's
 contributor documentation aims to be a single source of truth, so decidedlly *not*
 translating it reduces overhead.
@@ -94,6 +91,17 @@ file for this page. Click it.
 3. Start getting your bearings by comparing what you see on the source file to what
 you see on this page.
 
+## Conventions
+When creating or modifying ``*.md`` files:
+- Break lines before the word that *starts* after the 80th column
+- Pages have [summaries][hugo-summary] generated from page content or front matter.
+They may be created:
+    1. Automatically at the 70th word
+    2. At the position of the \<!\-\-more\-\-\> tag in the content.
+    3. In front matter, using the ``summary`` key.
+    - {{< colour "yellow" >}}**Try to avoid the first case here and instead use
+case 2 or 3.**{{< /colour >}}
+
 ## Build the Site Locally
 1. Install [hugo-extended][hugo-release], [dart sass][sass-release], and [git-lfs][git-lfs]
 2. Clone the website [repository][website]
@@ -115,16 +123,6 @@ type ``hugo new content pages/path/to/filename.md``.
 [hugo-release]: https://github.com/gohugoio/hugo/releases
 [sass-release]: https://github.com/sass/dart-sass/releases
 [git-lfs]: https://git-lfs.com/
-
-## Conventions
-Conventions to follow when creating or modifying pages:
-- Break lines before the word that *starts* after the 80th column
-- Pages have [summaries][hugo-summary] generated from page content or front matter.
-They may be created:
-    1. Automatically at the 70th word
-    2. At the position of the \<!\-\-more\-\-\> tag in the content.
-    3. In front matter, using the ``summary`` key.
-    - **Try to avoid the first case here and instead use case 2 or 3.**
 
 {{< id "main-image" >}}**Main page image:**{{< /id >}} [Page bundles][hugo-bundle] may include a file named ``index.jpg`` or ``index.png``,
 preferrably accompanied with [imgAlt front matter]({{< relref "#imgalt" >}}).
