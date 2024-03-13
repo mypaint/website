@@ -10,6 +10,8 @@ the MyPaint project.<!--more-->
 We abide by an agreed [code of conduct]({{< relref "code-of-conduct" >}}).
 Please follow them when engaging with the project, it helps us focus on what's important.
 
+{{< info >}}This section may contain incomplete pages{{< /info >}}
+
 # Getting Started
 {{< flex grow="true" >}}
 {{< button content="Translating MyPaint" href="translating/adding-translations"

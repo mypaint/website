@@ -7,7 +7,7 @@ between specifications and the backend. It is the primary source of reference fo
 developers and designers when suggesting, discussing, and prototyping new user-facing
 features for MyPaint.<!--more-->
 
-{{< colour "yellow" >}}**This section is heavily in development**{{< /colour >}}
+{{< info type="warning" >}}This section is heavily in development{{< /info >}}
 
 # UX/UI Philosophy
 As MyPaint continues to grow and expand its feature set, the project needs to ensure

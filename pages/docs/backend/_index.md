@@ -8,6 +8,8 @@ including files and technical concepts to help developers conceptualise MyPaint.
 The most detailed documentation for the project will always be contained within
 the source code.<!--more-->
 
+{{< info type="warning" >}}This section is heavily in development{{< /info >}}
+
 # Contributor Responsibilities
 - Please write code that matches what you see elsewhere. [Style guide]({{< ref "../contributing/style-guide" >}})
 - [Git workflow]({{< ref "../contributing/git" >}})

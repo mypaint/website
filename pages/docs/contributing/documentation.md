@@ -188,6 +188,7 @@ Front matter specific to [list pages][hugo-list]
 |``grid``|Inline|[``rows``][css-rows], [``columns``][css-columns], [``align``][css-align]|Enclose the contained content in a [grid][css-grid]|
 |``id``|Content|``0``: string|Enclose the contained content in a [``span``][html-span] tag with [``id="0"``][html-attr-id]|
 |``img``|Inline|[``alt``][html-img-alt]: string, [``src``][html-img-src]: path, ``caption``: string, [``float``][css-float], [``width``][css-max-width] |Insert an [image][html-img]|
+|``info``|Content|``type``: oneof (information, warning)|Draw an infobox|
 |``md``|Content|None|Renders markdown in contained content (for [shortcodes without markdown][hugo-shortcode-nomd])|
 |``paramref``|Inline|``0``: [Site parameter][hugo-params]|Like [``ref``][hugo-ref], but with a site parameter|
 
