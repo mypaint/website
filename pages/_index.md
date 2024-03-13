@@ -7,10 +7,11 @@ many useful tools to improve productivity."""
 
 {{< index/section
     direction="end"
-    src="/index/background.png"
-    work="Test"
-    artist="Aesara"
-    artistHref="https://aesara.net"
+    src="la-marche-des-géants.webp"
+    srclow="la-marche-des-géants-low.webp"
+    work="La marche des géants"
+    artist="Daemiryon"
+    artistHref="https://daemiryon.fr"
 >}}
 {{< md >}}
 # Work in Flow
