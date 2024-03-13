@@ -38,7 +38,7 @@ If a page is complete, please consider translating it into other languages. MyPa
 contributor documentation aims to be a single source of truth, so decidedlly *not*
 translating it reduces overhead.
 
-Translate a page by prepending the ``.md`` exntension with a [language code][website-languages].
+Translate a page by prepending the ``.md`` extension with a [language code][website-languages].
 e.g. to localise this page to Japanese, [create a page]({{< relref "#adding-content" >}})
 named ``documentation.ja.md``.
 

@@ -12,7 +12,7 @@ Get started with making changes to the website with [this guide][website-docs].
 [sass]: https://sass-lang.com/dart-sass
 [website]: https://github.com/mypaint/website
 [website-theme]: https://github.com/mypaint/website-theme
-[website-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation/#hugo
+[website-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation/#using-hugo
 
 # Contributing
 
