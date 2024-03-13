@@ -5,7 +5,7 @@ static site generator and [Dart Sass][sass].
 The official MyPaint website repository is hosted on [GitHub][website]. The theme
 is hosted [here][website-theme].
 
-Get started with making changes to the website with [this guide][website-docs].
+[**Start contributing to the website**][website-docs]
 
 [mypaint]: https://mypaint.org
 [hugo]: https://gohugo.io
@@ -14,10 +14,6 @@ Get started with making changes to the website with [this guide][website-docs].
 [website-theme]: https://github.com/mypaint/website-theme
 [website-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation/#using-hugo
 
-# Contributing
-
 # License
-All text in the website is licensed under [CC-BY-SA 4.0][cc-by-sa].
+All text in the website is licensed under [CC-BY-SA 4.0](LICENSE).
 Additional terms may apply.
-
-[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/
