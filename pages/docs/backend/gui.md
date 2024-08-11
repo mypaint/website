@@ -38,7 +38,7 @@ to consult the C API documentation for the library instead. To make matching up
 the C function/class names and their Python equivalents, you can use [pygi-grep][pygi-grep],
 a tool for searching Python-GObject namespaces.
 
-[pygi-grep]:(https://gist.github.com/achadwick/2647305f34fb31169f2)
+[pygi-grep]:https://gist.github.com/achadwick/2647305f34fb31169f2
 
     $ pygi-grep -vi -r 3.0 Gtk tree.*row
     from gi.repository import Gtk

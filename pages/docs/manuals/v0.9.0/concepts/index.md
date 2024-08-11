@@ -79,7 +79,7 @@ own from the Brush Selection dialog.
 
 Imported brushes usually come pre-sorted into their own group.
 
-You can add new brush packs by importing them. See [Brush Packages]({{< ref "../brush-packages" >}})
+You can add new brush packs by importing them. See [Brush Packages]({{< relref "brush-packages" >}})
 for details.
 
 # Canvas
