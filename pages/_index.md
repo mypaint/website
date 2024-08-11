@@ -25,13 +25,8 @@ extensibility to keep more advanced users satisfied.
 {{< index/downloads >}}
 {{< /index/section >}}
 
-{{< index/section
-    direction="start"
-    src="/index/background.png"
-    work="Test"
-    artist="Aesara"
-    artistHref="https://aesara.net"
->}}
+{{< index/combisection direction="start" >}}
+{{< index/combicontainer >}}
 {{< md >}}
 # Features
 - MyPaint's powerful in-house brush engine
@@ -45,15 +40,9 @@ anything conventional
 brush and your creativity. You can still reveal the tools you want, 
 when you need them.
 {{< /md >}}
-{{< /index/section >}}
+{{< /index/combicontainer >}}
 
-{{< index/section
-    direction="end"
-    src="/index/background.png"
-    work="Test"
-    artist="Aesara"
-    artistHref="https://aesara.net"
->}}
+{{< index/combicontainer >}}
 {{< md >}}
 # Socials
 Want to join the discussion with other users and developers? Here's where you can
@@ -66,15 +55,9 @@ find us:
     {{< button href="social.YouTube" src="/icons/brands/youtube.svg" content="YouTube" >}}
     {{< button href="social.Discord" src="/icons/brands/discord.svg" content="Discord" >}}
 {{< /flex >}}
-{{< /index/section >}}
+{{< /index/combicontainer >}}
 
-{{< index/section
-    direction="centre"
-    src="/index/background.png"
-    work="Test"
-    artist="Aesara"
-    artistHref="https://aesara.net"
->}}
+{{< index/combicontainer >}}
 {{< md >}}
 # The MyPaint Project
 The MyPaint project is a community-led development effort for a simple and intuitive
@@ -90,4 +73,5 @@ We need your ongoing help to develop the program.
     {{< button content="MyPaint on GitHub" href="social.github" src="/icons/brands/github.svg" >}}
     {{< button content="Donate" href="/donate" src="/icons/heart-outline.svg" >}}
 {{< /flex >}}
-{{< /index/section >}}
+{{< /index/combicontainer >}}
+{{< /index/combisection >}}
