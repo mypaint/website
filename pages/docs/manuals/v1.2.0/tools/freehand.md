@@ -1,4 +1,6 @@
-## The Freehand tool - draw and write freely
++++
+title = "Freehand Tool"
++++
 
 The Freehand tool is the default tool to draw or write without geometric constraints. The stroke shape is put directly on the canvas and can't be modified afterwards (compare to Inking tool). 
 There are different ways to choose the Freehand tool:

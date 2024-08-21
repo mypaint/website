@@ -2,7 +2,8 @@
 title = "Ellipses and Circles Tool"
 +++
 
-The Ellipses tool is a geometrical tool to construct circles or ellipses. The line shape is put directly on the canvas and can't be modified afterwards (compare to Inking tool). There are different ways to choose the Ellipses tool:
+The Ellipses tool is a geometrical tool to construct circles or ellipses. The line shape is put directly on the canvas
+and can't be modified afterwards (compare to Inking tool). There are different ways to choose the Ellipses tool:
 
 * Click on the ellipses icon in the Tool bar
 * _Edit → Ellipses and Circles_

@@ -1,3 +1,7 @@
++++
+title = "Lines and Curves"
++++
+
 The Lines and Curves tool is a geometrical tool to draw straight lines or smooth curves. The stroke shape can be modified directly after it is drawn to edit the curve. There are different ways to choose the Lines and Curves tool:
 * Click on the Lines and Curves icon in the Toolbar
 * Select _Edit → Lines and Curves_ from the top menu
