@@ -69,7 +69,7 @@ years by volunteer developers and artists to be what it is today.
 We need your ongoing help to develop the program.
 {{< /md >}}
 {{< flex grow="true" >}}
-    {{< button content="Documentation" href="/documentation" src="/icons/information-outline.svg" >}}
+    {{< button content="Documentation" href="/docs" src="/icons/information-outline.svg" >}}
     {{< button content="MyPaint on GitHub" href="social.github" src="/icons/brands/github.svg" >}}
     {{< button content="Donate" href="/donate" src="/icons/heart-outline.svg" >}}
 {{< /flex >}}
