@@ -1,5 +1,6 @@
 +++
 title = "Dockable Panels"
+weight = 40
 +++
 
 * [[HCY Wheel and Gamut Mask Editor|v1.2 HCY Wheel and Gamut Mask Editor]]

@@ -12,23 +12,26 @@ sectionNavURL = "/docs/manuals/v1.2.0"
 Welcome to the MyPaint v1.2.0 User manual. Here you can learn the broad strokes of how MyPaint works.
 
 # User Interface
-When MyPaint is first opened, you'll see a single window appear with not much in it. In the centre, there's a plain
-off-white paper background where you can draw. At the top, there are toolbars and menus. At the bottom, there's a status
-bar with some buttons and indicators clustered in the corners.
+When MyPaint is first opened, a single relatively sparse window will appear. At the centre, there's a plain off-white
+background where you can draw (the **canvas**). At the top, there are toolbars and menus. At the bottom, there's a
+status bar with some buttons and indicators clustered in the corners.
 
 {{< img src="mypaint-window-new.jpg" caption="A fresh installation of MyPaint" >}}
 
 {{< img src="mypaint-window-in-use.jpg" caption="MyPaint's user interface adapts to meet your needs">}}
 
-With a bit of customization you can set up sidebars full of dockable panels and palettes. You can make the MyPaint use
-the full screen area too, and tell it to hide the controls while you're working.
+MyPaint can be customised with dockable panels and palettes, all hideable while you work.
 
-## More Information
-- [Main Toolbar]({{< relref "ui/main-toolbar" >}})
-- [UI Toolbar]({{< relref "ui/ui-toolbar" >}})
-- [Footer bar]({{< relref "ui/footer-bar" >}})
-- Dockable panels
-- [Fullscreen mode]({{< relref "ui/fullscreen" >}})
+## Read more
+To learn more about MyPaint's user interface, refer to these pages:
+
+{{< flex grow="true" >}}
+    {{< button content="Main Toolbar" href="ui/main-toolbar" >}}
+    {{< button content="UI Toolbar" href="ui/ui-toolbar" >}}
+    {{< button content="Footer Bar" href="ui/footer-bar" >}}
+    {{< button content="Dockable Panels" href="./panels" >}}
+    {{< button content="Fullscreen Mode" href="ui/fullscreen" >}}
+{{< /flex >}}
 
 # Tools
 ## Anatomy of a stroke

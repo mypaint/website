@@ -2,9 +2,12 @@
 title = "Main Toolbar"
 summary = "The main toolbar contains painting tools and other commands"
 hideSummary = true
+weight = 10
 +++
 
-{{< img src="main-toolbar.jpg" caption="The main toolbar with the customisation menu open" >}}
+{{< id "main-toolbar-image" nomd >}}
+{{< img src="main-toolbar.jpg" caption="The main toolbar with the context menu open" >}}
+{{< /id >}}
 
 The **Main Toolbar** contains MyPaint's painting tools, and other commands. It is located at the top of the
 [main window]({{< relref "../#user-interface" >}}), next to the menu. It continues into the [UI toolbar]({{< relref
@@ -16,10 +19,17 @@ what appears on it.
 {{< img src="main-toolbar-file.jpg" float="right" >}}
 The File Handling toolbar buttons let you load and save the working canvas. They are visible by default.
 
-- **New File** (_File → New_, or `Ctrl+N`). Starts a new, blank canvas.
-- **Open File** (_File → Open…_, or `Ctrl+O`). Open a file on disk, so it can be edited in the canvas area.
-- **Save File** (_File → Save…_, or `Ctrl+S`). Saves the current canvas to a file on disk. If it hasn't got a file name
-yet, you'll be asked for one.
+**New File**
+> *File → New*, or `Ctrl+N`
+- Starts a new, blank canvas.
+
+**Open File**
+> *File → Open…*, or `Ctrl+O`
+- Open a file on disk, so it can be edited in the canvas area.
+
+**Save File**
+> *File → Save…*, or `Ctrl+S`
+- Saves the current canvas to a file on disk. If it hasn't got a file name yet, you'll be asked for one.
 
 # Core Tools
 {{< img src="main-toolbar-tools.jpg" float="right" >}}
@@ -31,21 +41,21 @@ The core set of tools cannot be hidden using the popup menu.
 
 - Toggles the Eraser paint/blend mode, which affects how the painting tools operate. [Read more]({{< relref
 "../paint-modes#eraser" >}})
-- Other optional paint modes can be toggled on the toolbar: see [Blend Modes]({{< relref "#blend-modes" >}})
-below.
+- Other optional paint modes can be toggled on the toolbar, see [blend modes]({{< relref "#blend-modes" >}}).
 
-**Freehand** (paint brush)
+
+**Freehand** (paintbrush)
 > *Edit → Freehand*, or `P`
 
 - The default painting tool; paint using the current brush and colour, without constraints. [Read more]({{< relref
 "../tools/freehand" >}})
 
-**Pick Colour** (eye dropper)
+**Pick Colour** (eyedropper)
 > *Colour → Pick Colour*, or `R`
 
 - Pick a new painting colour from the canvas. [Read more]({{< relref "../tools/colour-picker" >}})
 
-**Flood fill** (paint bucket)
+**Flood Fill** (paint bucket)
 > *Edit → Flood Fill*
 
 - Fills an area with the current painting colour.
@@ -67,7 +77,8 @@ below.
 {{< img src="main-toolbar-scraps.jpg" float="right" >}}
 
 The Scraps Switcher toolbar buttons let you quickly save drafts to a dedicated folder on disk, and load them in again.
-These items are optional, you need to use the [main toolbar's context menu]({{< relref "#" >}}) to make them visible.
+These items are optional, you need to use the [main toolbar's context menu]({{< relref "#main-toolbar-image" >}}) to
+make them visible.
 
 Scrap file revisions are stored with numbered filenames in a single folder. The scrap folder's location can be changed
 in the [Preferences window]({{< relref "../preferences" >}})
@@ -106,8 +117,8 @@ The toolbar items are only sensitive when you can undo or redo a step.
 {{< img src="main-toolbar-blend.jpg" float="right" >}}
 
 Paint blend modes change how your brush affects the layer you paint on. These toolbar buttons are optional, and you need
-to use the [main toolbar's context menu]({{< relref "#" >}}) to make them visible. [Read more about paint modes]({{<
-relref "../paint-modes" >}})
+to use the [main toolbar's context menu]({{< relref "#main-toolbar-image" >}}) to make them visible. [Read more about
+paint modes]({{< relref "../paint-modes" >}})
 
 **Lock Alpha** (padlock)
 > *Brush → Paint Mode → Paint Mode: Lock Alpha*, or press `Shift+L`
@@ -181,7 +192,7 @@ tools, so they are visible by default.
 {{< img src="main-toolbar-view-alt.jpg" float="right" >}}
 
 These buttons allow single-click adjustments of the view. These items are optional, you need to use the [main toolbar's
-context menu]({{< relref "#" >}}) to make them visible.
+context menu]({{< relref "#main-toolbar-image" >}}) to make them visible.
 
 There's no equivalent of these buttons for the canvas position, but the cursor keys will pan around the canvas.
 
@@ -197,7 +208,7 @@ There's no equivalent of these buttons for the canvas position, but the cursor k
 {{< img src="main-toolbar-view-reset.jpg" float="right" >}}
 
 These are for resetting the view. These items are optional, you need to use the [main toolbar's context menu]({{< relref
-"#" >}}) to make them visible.
+"#main-toolbar-image" >}}) to make them visible.
 
 **Reset and Centre View**
 > *View → Reset and Centre View*, or press `F12`

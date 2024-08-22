@@ -1,5 +1,5 @@
 +++
-title = "Colour Picker"
+title = "Stroke & Layer Picker"
 tags = "Incomplete"
 +++
 

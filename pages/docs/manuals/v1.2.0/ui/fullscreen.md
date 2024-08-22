@@ -1,16 +1,11 @@
 +++
 title = "Fullscreen Mode"
-summary = "How to use MyPaint's fullscreen mode"
 +++
 
-Turn on the Fullscreen mode to maximize your drawing space. Differences in Fullscreen mode:
-* MyPaint's canvas fills your screen completely
-* No window borders or taskbar (Windows)
-* UI elements like Toolbar, floating and docked Panels, Footer are hidden when not in use
-* move the cursor to the UI element's location to show it
-* Main Menu is hidden under _MyPaint_ button
+MyPaint's fullscreen mode maximises useable drawing space on the screen.
+> *View → Fullscreen*, or <kbd>F11</kbd>, or [fullscreen button]({{< relref "ui-toolbar#fullscreen-toggle" >}})
 
-## To enter or leave Fullscreen
-* Click the Fullscreen icon in the [[UI toolbar|v1.2-UI-Toolbar]] (the double arrows, far right)
-* Main Menu _View_ → _Fullscreen_
-* Keyboard shortcut <kbd>F11</kbd>
+- Window borders and the system taskbar/dash/panel are hidden.
+- UI elements (e.g. toolbars, footer, and panels) can be toggled on/off.
+    - Move the cursor to the UI element's location to unhide it
+- Menus are hidden under the *MyPaint* button on the [main toolbar]({{< relref "main-toolbar" >}})

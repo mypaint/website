@@ -1,5 +1,6 @@
 +++
 title = "Paint Modes"
+weight = 30
 +++
 
 _Paint modes_, also known as _brush blend modes_, change the way that the brush applies paint. They affect every kind of drawing and painting tool where you use the brush to apply paint. MyPaint's paint modes track the current brush, so if you choose an eraser preset from a brush group panel, you will see the Eraser symbol on the toolbar light up.

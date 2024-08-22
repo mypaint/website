@@ -1,6 +1,7 @@
 +++
 title = "Preferences"
 summary = "A description of MyPaint's configurable preferences"
+weight = 60
 +++
 
 The Preferences Window gives you options to configure MyPaint's appearance, input, keyboard shortcuts and many other settings. Open the Preferences Window by
