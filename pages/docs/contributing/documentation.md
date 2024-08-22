@@ -186,7 +186,7 @@ Front matter specific to [list pages][hugo-list]
 |``colour``|Content|``0``: oneof (red, yellow)|Change the [colour][css-color] of the contained text|
 |``flex``|Content|[``direction``][css-flex-direction]: oneof (column, row), [``grow``][css-flex-grow]: boolean|Enclose the contained content in a [flexbox][css-flexbox]|
 |``grid``|Inline|[``rows``][css-rows], [``columns``][css-columns], [``align``][css-align]|Enclose the contained content in a [grid][css-grid]|
-|``id``|Content|``0``: string|Enclose the contained content in a [``span``][html-span] tag with [``id="0"``][html-attr-id]|
+|``id``|Content|``0``: string, ``1``: oneof (nomd, yesmd)|Enclose the contained content in a [``span``][html-span] tag with [``id="0"``][html-attr-id] with optional disabling of markdown rendering|
 |``img``|Inline|[``alt``][html-img-alt]: string, [``src``][html-img-src]: path, ``caption``: string, [``float``][css-float], [``width``][css-max-width] |Insert an [image][html-img]|
 |``info``|Content|``type``: oneof (information, warning)|Draw an infobox|
 |``md``|Content|None|Renders markdown in contained content (for [shortcodes without markdown][hugo-shortcode-nomd])|
