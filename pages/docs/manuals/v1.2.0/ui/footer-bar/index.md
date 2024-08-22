@@ -19,11 +19,10 @@ The status bar at the bottom of the main window shows the current tool, and also
 The colour controls are clustered on the left side of the footer bar.
 
 **Eyedropper** button
-> <kbd>R</kbd>, and <kbd>ALT</kbd>+<kbd>LMB</kbd>
+> Press <kbd>r</kbd>, or <kbd>alt</kbd>+<kbd>lmb</kbd>
 - Pick a colour from the canvas. [Read more]({{< relref "../tools/colour-picker" >}})
-
 **Current and Previous Colour** indicator and menu
-> *Colour → Change Colour…*, or <kbd>C</kbd>.
+> *Colour → Change Colour…*, or <kbd>C</kbd>
 - A rectangle consisting of two sides (swatches). The left swatch shows the current brush colour, the right swatch shows
 the previous colour. 
 - Clicking the left swatch (current colour) opens the colour selector popup. [Read more]({{< relref "../popups/colour-selector" >}})

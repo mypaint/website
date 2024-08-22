@@ -24,16 +24,16 @@ paint with. [Read more]({{< relref "../popups/brush-groups" >}})
 - This panel shows options for the current tool. [Read more]({{< relref "../panels/tool-options" >}})
 
 **Layers Panel** (stack of paper)
-> *Layer → Show Layers Panel*, or press `L`
+> *Layer → Show Layers Panel*, or <kbd>L</kbd>
 - This panel shows the layers tree (layer stack) for your working document. [Read more]({{< relref "../panels/layers" >}})
 
 **Scratchpad Panel** (clipboard)
-> *Scratchpad → Show Scratchpad Panel*, or press `Shift+S`
+> *Scratchpad → Show Scratchpad Panel*, or <kbd>Shift</kbd>+<kbd>S</kbd>
 - This panel is a little area where you can work on thumbnail sketches, stash references, or make palettes. Scratchpads
 can be saved and loaded independently of the main working doc. [Read more]({{< relref "../panels/scratchpad" >}})
 
 **Preview Panel** (camera viewfinder)
-> *View → Preview*, or press `Shift+P`
+> *View → Preview*, or <kbd>Shift</kbd>+<kbd>P</kbd>
 - The preview panel shows an overview of the entire document, and a viewfinder showing where you're zoomed to. [Read
 more]({{< relref "../panels/preview" >}})
 
@@ -42,6 +42,6 @@ more]({{< relref "../panels/preview" >}})
 - The history panel shows a short timeline of recent brushes and colours. [Read more]({{< relref "../panels/history" >}})
 
 {{< id "fullscreen-toggle" >}}**Fullscreen Mode Toggle**{{< /id >}}
-> *View → Fullscreen*, or press `F11`
+> *View → Fullscreen*, or <kbd>F11</kbd>
 - This button makes MyPaint take up the whole screen, or gets you out of fullscreen mode when it's active. [Read more](
 {{< relref "fullscreen" >}})
