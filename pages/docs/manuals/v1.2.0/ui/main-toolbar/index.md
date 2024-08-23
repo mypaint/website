@@ -41,7 +41,7 @@ The core set of tools cannot be hidden using the popup menu.
 > *Brush → Paint Mode → Paint Mode: Eraser*, or <kbd>E</kbd>
 
 - Toggles the Eraser paint/blend mode, which affects how the painting tools operate. [Read more]({{< relref
-"../paint-modes#eraser" >}})
+"../painting/paint-modes#eraser" >}})
 - Other optional paint modes can be toggled on the toolbar, see [blend modes]({{< relref "#blend-modes" >}}).
 
 
@@ -49,12 +49,12 @@ The core set of tools cannot be hidden using the popup menu.
 > *Edit → Freehand*, or <kbd>P</kbd>
 
 - The default painting tool; paint using the current brush and colour, without constraints. [Read more]({{< relref
-"../tools/freehand" >}})
+"../painting/freehand" >}})
 
 **Pick Colour** (eyedropper)
 > *Colour → Pick Colour*, or <kbd>R</kbd>
 
-- Pick a new painting colour from the canvas. [Read more]({{< relref "../tools/colour-picker" >}})
+- Pick a new painting colour from the canvas. [Read more]({{< relref "../canvas-tools/colour-picker" >}})
 
 **Flood Fill** (paint bucket)
 > *Edit → Flood Fill*
@@ -119,20 +119,20 @@ The toolbar items are only sensitive when you can undo or redo a step.
 
 Paint blend modes change how your brush affects the layer you paint on. These toolbar buttons are optional, and you need
 to use the [main toolbar's context menu]({{< relref "#main-toolbar-image" >}}) to make them visible. [Read more about
-paint modes]({{< relref "../paint-modes" >}})
+paint modes]({{< relref "../painting/paint-modes" >}})
 
 **Lock Alpha** (padlock)
 > *Brush → Paint Mode → Paint Mode: Lock Alpha*, or <kbd>Shift</kbd>+<kbd>L</kbd>
 - Applying the brush doesn't change the transparency of the pixels you paint over (in the target layer). Use this for
 further highlighting or shading objects that are painted on their own layer. [Read more]({{< relref
-"../paint-modes#lock-alpha" >}})
+"../painting/paint-modes#lock-alpha" >}})
 - It's analogous to painting on layer groups which contain a mask, but a lot less fiddly.
 
 **Colourize** (rainbow)
 > *Brush → Paint Mode → Paint Mode: Colourize*, or <kbd>Shift</kbd>+<kbd>K</kbd>
 - Painting applies the _hue_ (kind of colour) and _saturation_ (degree of colour) of your brush to whatever you paint on.
 The _value_ (brightness or darkness) of what you paint on isn't affected. [Read more]({{< relref
-"../paint-modes#colourize" >}})
+"../painting/paint-modes#colourize" >}})
 - This paint mode also doesn't change the transparency of what you paint on.
 - Use this for adjusting colours, or _assigning_ colour to something you've painted in greyscale.
 
@@ -145,25 +145,25 @@ paint blend mode.
 
 **Lines and Curves**
 > *Edit → Lines and Curves*, or <kbd>K</kbd>
-- Draw straight lines, hold down <kbd>Ctrl</kbd> to constrain the angle. [Read more]({{< relref "../tools/lines-and-curves" >}})
+- Draw straight lines, hold down <kbd>Ctrl</kbd> to constrain the angle. [Read more]({{< relref "../painting/lines-and-curves" >}})
 - When this tool is active, you can add curves to the last straight line you drew by pressing <kbd>Shift</kbd> and dragging.
 - You can add up to two bends in each straight line.
 
 **Connected Lines**
 > *Edit → Connected Lines*, or <kbd>J</kbd>
 - Draw a line from where you last painted. Constraints and curving work just like the Lines and Curves tool. [Read
-more]({{< relref "../tools/connected-lines" >}})
+more]({{< relref "../painting/connected-lines" >}})
 
 **Ellipses and Circles**
 > *Edit → Ellipses and Circles*, or <kbd>O</kbd>
-- Draw circles and ellipses (stretched-out circles). [Read more]({{< relref "../tools/ellipses-and-circles" >}})
+- Draw circles and ellipses (stretched-out circles). [Read more]({{< relref "../painting/ellipses-and-circles" >}})
 - Holding down <kbd>Shift</kbd> allows you to change the angle of an ellipse.
 - Holding down <kbd>Ctrl</kbd> constrains the aspect ratio (how stretched-out it looks).
 - When you hold down <kbd>Ctrl</kbd>+<kbd>Shift</kbd> together, the angle is constrained instead.
 
 **Inking**
 > *Edit → Inking*
- - Draw smooth strokes with your stylus or mouse. [Read more]({{< relref "../tools/inking" >}})
+ - Draw smooth strokes with your stylus or mouse. [Read more]({{< relref "../painting/inking" >}})
 
 # Navigation
 ## View (Main)

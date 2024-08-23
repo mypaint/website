@@ -1,5 +1,5 @@
 +++
-title = "Dockable Panels"
+title = "Panels & Popups"
 weight = 40
 +++
 

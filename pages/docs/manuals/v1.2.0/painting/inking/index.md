@@ -5,6 +5,8 @@ title = "Inking Tool"
 The Inking tool helps you draw controlled, smooth curved lines. You can use it for making sharp ink-like strokes over
 the top of pencil sketch layers. It also works as a way of gaining some fine control of your painting strokes.
 
+smooth Strokes than can be modified
+
 ## Capturing strokes
 To use your current brush with extra inking guidance, click on the Inking Tool icon in the toolbar. This tool works best
 with brush settings that emulate an ink pen. A brush whose width responds to your stylus pressure is ideal.

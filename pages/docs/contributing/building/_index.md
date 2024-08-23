@@ -17,7 +17,7 @@ These dependencies are developed by the MyPaint project.
 
 {{< flex >}}
     {{< button content="Building libmypaint" href="libmypaint" >}}
-    {{< button content="Building MyPaint Brushes" href="brushes" >}}
+    {{< button content="Building MyPaint Brushes" href="./brushes" >}}
 {{< /flex >}}
 
 ## User Installation

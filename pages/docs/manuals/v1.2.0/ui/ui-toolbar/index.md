@@ -17,29 +17,29 @@ way of changing the painting colour. [Read more]({{< relref "../colour/selectors
 **Brush Groups Menu** (three brushes)
 > *Brush → Brush Groups* or *Window → Brush Groups*
 - The entries in this menu open different brush group dock-panels. Each dock-panel allows you to change the brush you
-paint with. [Read more]({{< relref "../popups/brush-groups" >}})
+paint with. [Read more]({{< relref "../panels-popups/brush-groups" >}})
 
 **Tool Options Panel** (cog)
 > *Edit → Show Tool Options Panel*
-- This panel shows options for the current tool. [Read more]({{< relref "../panels/tool-options" >}})
+- This panel shows options for the current tool. [Read more]({{< relref "../panels-popups/tool-options" >}})
 
 **Layers Panel** (stack of paper)
 > *Layer → Show Layers Panel*, or <kbd>L</kbd>
-- This panel shows the layers tree (layer stack) for your working document. [Read more]({{< relref "../panels/layers" >}})
+- This panel shows the layers tree (layer stack) for your working document. [Read more]({{< relref "../panels-popups/layers" >}})
 
 **Scratchpad Panel** (clipboard)
 > *Scratchpad → Show Scratchpad Panel*, or <kbd>Shift</kbd>+<kbd>S</kbd>
 - This panel is a little area where you can work on thumbnail sketches, stash references, or make palettes. Scratchpads
-can be saved and loaded independently of the main working doc. [Read more]({{< relref "../panels/scratchpad" >}})
+can be saved and loaded independently of the main working doc. [Read more]({{< relref "../panels-popups/scratchpad" >}})
 
 **Preview Panel** (camera viewfinder)
 > *View → Preview*, or <kbd>Shift</kbd>+<kbd>P</kbd>
 - The preview panel shows an overview of the entire document, and a viewfinder showing where you're zoomed to. [Read
-more]({{< relref "../panels/preview" >}})
+more]({{< relref "../panels-popups/preview" >}})
 
 **History Panel** (clock)
 > *Edit → Recent Brushes and Colours*
-- The history panel shows a short timeline of recent brushes and colours. [Read more]({{< relref "../panels/history" >}})
+- The history panel shows a short timeline of recent brushes and colours. [Read more]({{< relref "../panels-popups/history" >}})
 
 {{< id "fullscreen-toggle" >}}**Fullscreen Mode Toggle**{{< /id >}}
 > *View → Fullscreen*, or <kbd>F11</kbd>
