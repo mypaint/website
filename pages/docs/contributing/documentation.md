@@ -182,6 +182,7 @@ Front matter specific to [list pages][hugo-list]
 ### Custom Shortcodes
 |Shortcode|Type|Parameters|Description|
 |:--------|:---|:---------|:----------|
+|``bigbutton``|Inline|``title``: string, ``subtitle``: string, [``href``][html-a-href]: path, [``src``][html-img-src]|Add a styled [anchor][html-a] with ``title`` and ``subtitle`` and image (optional)|
 |``button``|Inline|``content``: string, [``href``][html-a-href]: path, [``src``][html-img-src]|Add a styled [anchor][html-a] labelled ``content`` with an image (optional)|
 |``colour``|Content|``0``: oneof (red, yellow)|Change the [colour][css-color] of the contained text|
 |``flex``|Content|[``direction``][css-flex-direction]: oneof (column, row), [``grow``][css-flex-grow]: boolean|Enclose the contained content in a [flexbox][css-flexbox]|
