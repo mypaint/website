@@ -185,6 +185,7 @@ Front matter specific to [list pages][hugo-list]
 |``bigbutton``|Inline|``title``: string, ``subtitle``: string, [``href``][html-a-href]: path, [``src``][html-img-src]|Add a styled [anchor][html-a] with ``title`` and ``subtitle`` and image (optional)|
 |``button``|Inline|``content``: string, [``href``][html-a-href]: path, [``src``][html-img-src]|Add a styled [anchor][html-a] labelled ``content`` with an image (optional)|
 |``colour``|Content|``0``: oneof (red, yellow)|Change the [colour][css-color] of the contained text|
+|``embedpage``|Inline|``0``: [page][hugo-getpage]|Embed the contents of another page|
 |``flex``|Content|[``direction``][css-flex-direction]: oneof (column, row), [``grow``][css-flex-grow]: boolean|Enclose the contained content in a [flexbox][css-flexbox]|
 |``grid``|Inline|[``rows``][css-rows], [``columns``][css-columns], [``align``][css-align]|Enclose the contained content in a [grid][css-grid]|
 |``id``|Content|``0``: string, ``1``: oneof (nomd, yesmd)|Enclose the contained content in a [``span``][html-span] tag with [``id="0"``][html-attr-id] with optional disabling of markdown rendering|
@@ -203,8 +204,9 @@ Front matter specific to [list pages][hugo-list]
 [css-float]: https://developer.mozilla.org/en-US/docs/Web/CSS/float
 [css-max-width]: https://developer.mozilla.org/en-US/docs/Web/CSS/max-width
 [css-rows]: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows
-[hugo-shortcode-nomd]: https://gohugo.io/content-management/shortcodes/#shortcodes-without-markdown
+[hugo-getpage]: https://gohugo.io/methods/page/getpage/
 [hugo-params]: https://gohugo.io/variables/site/#methods:site:param
+[hugo-shortcode-nomd]: https://gohugo.io/content-management/shortcodes/#shortcodes-without-markdown
 [html-attr-id]: https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id
 [html-a]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 [html-a-href]: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#href
