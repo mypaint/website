@@ -10,7 +10,7 @@ weight = 10
 {{< /id >}}
 
 The **Main Toolbar** contains MyPaint's painting tools, and other commands. It is located at the top of the
-[main window]({{< relref "../#user-interface" >}}), underneath the menubar. It continues into the [UI toolbar]({{< relref
+[main window]({{< relref "index" >}}), underneath the menubar. It continues into the [UI toolbar]({{< relref
 "ui-toolbar" >}}).
 
 Clicking on a blank area of the main toolbar with the right mouse button reveals a context menu used to show/hide

@@ -2,7 +2,8 @@
 title = "Tool Options Panel"
 +++
 
-The tool option panel shows different options depending on the active tool. There are some tools without options. Other tools have very similar options.
+The **Tool Options Panel** is used to view and change parameters for the current tool. Some tools do not have
+parameters, others have very similar parameters.
 
 ## Painting Tools - Tool Options Panels
 ![Freehand Tool Options](https://cloud.githubusercontent.com/assets/6949092/21095114/548baef0-c05a-11e6-9549-e0713a5d91b8.PNG)![Lines and Curves Tool Options](https://cloud.githubusercontent.com/assets/6949092/21095119/5970259a-c05a-11e6-8279-0a6f37e31270.png)![Connected Lines Tool Options](https://cloud.githubusercontent.com/assets/6949092/21095122/5c4bf4d8-c05a-11e6-914d-8297f734573a.png)![Circle and Ellipses Tool Optios](https://cloud.githubusercontent.com/assets/6949092/21095133/670dc00e-c05a-11e6-917a-fb4b720850ad.png)

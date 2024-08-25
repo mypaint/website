@@ -1,5 +1,6 @@
 +++
 title = "Fullscreen Mode"
+weight = 60
 +++
 
 MyPaint's fullscreen mode maximises useable drawing space on the screen.

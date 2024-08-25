@@ -1,10 +1,9 @@
 +++
 title = "Footer bar"
-summary = "A description of the strip of UI features at the bottom of the main window"
 weight = 30
 +++
 
-The **Footer Bar** is a strip comprising the bottom of the [main window]({{< relref "../#user-interface" >}}). It
+The **Footer Bar** is a strip comprising the bottom of the [main window]({{< relref "index" >}}). It
 consists of a status bar, and two clusters of controls for changing the brush and colour.
 
 # Status bar
@@ -26,16 +25,16 @@ The colour controls are clustered on the left side of the footer bar.
 - A rectangle consisting of two sides (swatches). The left swatch shows the current brush colour, the right swatch shows
 the previous colour. 
 - Clicking the left swatch (current colour) opens the colour selector popup. [Read more]({{< relref
-"../panels-popups/colour-selector" >}})
+"popups/colour-selector" >}})
 - Clicking the right swatch (previous colour) reverts the brush to the previous colour.
 
 **Edit Colour Details** button 
-- Open the *Set Current Colour* popup window for inputting numeric colour values. [Read more]({{< relref "../colour/numeric-values" >}})
+- Open the *Set Current Colour* popup window for inputting numeric colour values. [Read more]({{< relref "../painting/colour/numeric-values" >}})
 
 **Add Colour to Palette** button
 > *Colour → Add Colour to Palette*
 - Adds the current brush colour to the palette. The palette will open in a sidebar panel if it isn't already open. [Read
-more]({{< relref "../panels-popups/palette" >}})
+more]({{< relref "panels/palette" >}})
 
 # Brush controls
 {{< img src="mypaint-footer-bar-brush.jpg" float="right" >}}
@@ -45,7 +44,7 @@ The brush controls are clustered on the right side of the footer bar.
 **Current Brush** indicator and menu
 > *Brush → Change Brush…*, or <kbd>B</kbd>
 - A square containing the current brush icon.
-- Clicking the icon opens the brush groups popup. [Read more]({{< relref "../panels-popups/brush-groups" >}})
+- Clicking the icon opens the brush groups popup. [Read more]({{< relref "popups/brush-groups" >}})
 
 **Pick Stroke and Layer** button
 > Press <kbd>W</kbd>
