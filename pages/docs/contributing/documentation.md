@@ -145,6 +145,7 @@ This site's front matter is written in [TOML](https://toml.io/en/).
 |[summary][hugo-summary]|String|Yes|Define a summary instead of using page content|
 |draft|Boolean|Yes|Describe the page as a [draft][hugo-draft]. These aren't published in the production environment|
 |{{< id "imgalt" >}}imgAlt{{< /id >}}|String|Yes|Describe the alt attribute for the page's [main image]({{< relref "#main-image" >}})|
+|reversePageTurner|Boolean|Yes|Reverses the sort order of pages in the page turner (at the bottom of a page)|
 |sectionNavURL|Path|Yes|Enable the site navigation widget in aside at the path described|
 |showInfo|Boolean|Yes|Display page git info|
 
