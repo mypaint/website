@@ -5,7 +5,7 @@ date = 2009-06-18T00:00:00Z
 tags = ["legacy","stories"]
 +++
 
-{{< img float="right" width="25em" caption="MyPaint v0.6.0" src="2009-03-06-about_mypaint-0.6.jpg" >}}
+{{< img float="right" width="25em" caption="MyPaint v0.6.0" src="2009-03-06-about_mypaint-0.6.jpg" />}}
 
 Okay, this is so that everyone can just stop asking why MyPaint, etc.
 

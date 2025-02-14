@@ -16,6 +16,6 @@ developers and key project staff. Thank you for believing in the vision of MyPai
 # Sponsors
 Some individuals and organisations help MyPaint through major financial and infrastructure contributions.
 
-{{< img src="/images/sponsors/Altispeed.jpg" >}}
+{{< img src="/images/sponsors/Altispeed.jpg" />}}
 [Altispeed Technologies](https://altispeed.com/) and Noah Chelliah currently sponsor and host MyPaint's community forums
 

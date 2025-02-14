@@ -6,7 +6,7 @@ weight = 10
 +++
 
 {{< id "main-toolbar-image" nomd >}}
-{{< img src="main-toolbar.jpg" caption="The main toolbar with the context menu open" >}}
+{{< img src="main-toolbar.jpg" caption="The main toolbar with the context menu open" />}}
 {{< /id >}}
 
 The **Main Toolbar** contains MyPaint's painting tools, and other commands. It is located at the top of the
@@ -17,7 +17,7 @@ Clicking on a blank area of the main toolbar with the right mouse button reveals
 buttons
 
 # File Handling
-{{< img src="main-toolbar-file.jpg" float="right" >}}
+{{< img src="main-toolbar-file.jpg" float="right" />}}
 The File Handling toolbar buttons let you load and save the working canvas. They are visible by default.
 
 **New File**
@@ -33,7 +33,7 @@ The File Handling toolbar buttons let you load and save the working canvas. They
 - Saves the current canvas to a file on disk. If it hasn't got a file name yet, you'll be asked for one.
 
 # Core Tools
-{{< img src="main-toolbar-tools.jpg" float="right" >}}
+{{< img src="main-toolbar-tools.jpg" float="right" />}}
 
 The core set of tools cannot be hidden using the popup menu.
 
@@ -75,7 +75,7 @@ The core set of tools cannot be hidden using the popup menu.
 - Define an axis for painting symmetrically. Symmetry mode affects all normal painting tools.
 
 # Scraps Switcher
-{{< img src="main-toolbar-scraps.jpg" float="right" >}}
+{{< img src="main-toolbar-scraps.jpg" float="right" />}}
 
 The Scraps Switcher toolbar buttons let you quickly save drafts to a dedicated folder on disk, and load them in again.
 These items are optional, you need to use the [main toolbar's context menu]({{< relref "#main-toolbar-image" >}}) to
@@ -100,7 +100,7 @@ in the [Preferences window]({{< relref "../preferences" >}})
  - This works just like Open Previous Scrap, but in the opposite direction.
 
 # Undo and Redo
-{{< img src="main-toolbar-undo-redo.jpg" float="right" >}}
+{{< img src="main-toolbar-undo-redo.jpg" float="right" />}}
 
 These are the normal undo and redo controls. The only difference between these and their equivalents from other apps is
 that MyPaint's freehand mode uses shortish fragments of continuous painting as its undo step.
@@ -115,7 +115,7 @@ The toolbar items are only sensitive when you can undo or redo a step.
 
 
 # Blend Modes
-{{< img src="main-toolbar-blend.jpg" float="right" >}}
+{{< img src="main-toolbar-blend.jpg" float="right" />}}
 
 Paint blend modes change how your brush affects the layer you paint on. These toolbar buttons are optional, and you need
 to use the [main toolbar's context menu]({{< relref "#main-toolbar-image" >}}) to make them visible. [Read more about
@@ -138,7 +138,7 @@ The _value_ (brightness or darkness) of what you paint on isn't affected. [Read 
 
 
 # Line Modes
-{{< img src="main-toolbar-lines.jpg" float="right" >}}
+{{< img src="main-toolbar-lines.jpg" float="right" />}}
 
 These tools let you draw geometric shapes. The lines that are created will be made with the current brush, colour, and
 paint blend mode.
@@ -167,7 +167,7 @@ more]({{< relref "../painting/connected-lines" >}})
 
 # Navigation
 ## View (Main)
-{{< img src="main-toolbar-view.jpg" float="right" >}}
+{{< img src="main-toolbar-view.jpg" float="right" />}}
 
 These items allow you to adjust the viewport by clicking and dragging on the canvas. They are standard view manipulation
 tools, so they are visible by default.
@@ -190,7 +190,7 @@ tools, so they are visible by default.
 - This allows you to ensure your sketches look right from both directions.
 
 ## View (Alternative/Secondary)
-{{< img src="main-toolbar-view-alt.jpg" float="right" >}}
+{{< img src="main-toolbar-view-alt.jpg" float="right" />}}
 
 These buttons allow single-click adjustments of the view. These items are optional, you need to use the [main toolbar's
 context menu]({{< relref "#main-toolbar-image" >}}) to make them visible.
@@ -206,7 +206,7 @@ There's no equivalent of these buttons for the canvas position, but the cursor k
 - Change the canvas rotation by one angular step.
 
 ## View (Resetting)
-{{< img src="main-toolbar-view-reset.jpg" float="right" >}}
+{{< img src="main-toolbar-view-reset.jpg" float="right" />}}
 
 These are for resetting the view. These items are optional, you need to use the [main toolbar's context menu]({{< relref
 "#main-toolbar-image" >}}) to make them visible.

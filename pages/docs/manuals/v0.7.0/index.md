@@ -20,7 +20,7 @@ left half of the keyboard. That’s how the shortcuts are arranged, but you can 
 change them.
 
 # Brush Size
-{{< img src="ResizingBrush.png" width="8em" float="right" >}}
+{{< img src="ResizingBrush.png" width="8em" float="right" />}}
 
 To increase the size of the brush, press the F key. Press the D key to make it smaller.
 Try to use those keys instinctively. You can use them in the middle of a stroke.
@@ -31,7 +31,7 @@ faster or slower. This works best when painting with small successive movements
 instead of doing one straight stroke.
 
 # Change the Color
-{{< img src="ColourChooser.png" width="12em" float="left" >}}
+{{< img src="ColourChooser.png" width="12em" float="left" />}}
 
 Press the G key to open the GTK color dialog. Choose your color. Press G again to
 get rid of it. Scribble around a bit with your new color, then press V. The color
@@ -59,7 +59,7 @@ that cover a large area. You can press M again to include earlier strokes. Press
 N or simply start to paint to get out of this mode. (demo)
 
 # The Brush Dialog
-{{< img src="BrushList.png" float="right" >}}
+{{< img src="BrushList.png" float="right" />}}
 
 Open the edit expander in the brush dialog. The white space at the bottom of the
 graphical brush list is for trying out your brush. Use it a bit. You can drag the
@@ -85,7 +85,7 @@ But why is it at zero? Well what you see here is the base value, independent of
 speed, pressure, whatever. Change it until it shows 2.0. Change your Color to black
 and draw a bit.
 
-{{< img src="Customize-Your-Brush.jpg" float="right" >}}
+{{< img src="Customize-Your-Brush.jpg" float="right" />}}
 
 OK, that was a bad idea, and it still does change with speed! Click on the red brush
 again to restore the original settings. Click on the X button right to the change

@@ -8,7 +8,7 @@ past few weeks."""
 tags = ["jekyll"]
 +++
 
-{{< img src="state-of-website.jpg" float="right" width="200px" >}}
+{{< img src="state-of-website.jpg" float="right" width="200px" />}}
 
 As many of you may have read from [@mypaintapp][twitter] on twitter, our previous
 host provider for both the mypaint website and the forums went dark a few weeks

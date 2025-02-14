@@ -7,13 +7,13 @@ The **Footer Bar** is a strip comprising the bottom of the [main window]({{< rel
 consists of a status bar, and two clusters of controls for changing the brush and colour.
 
 # Status bar
-{{< img src="mypaint-footer-bar-status.jpg" width="100%" >}}
+{{< img src="mypaint-footer-bar-status.jpg" width="100%" />}}
 
 The status bar at the bottom of the main window shows the current tool, and also the canvas's zoom and rotation.
 
 # Colour controls
 
-{{< img src="mypaint-footer-bar-colour.jpg" float="right" >}}
+{{< img src="mypaint-footer-bar-colour.jpg" float="right" />}}
 
 The colour controls are clustered on the left side of the footer bar.
 
@@ -37,7 +37,7 @@ the previous colour.
 more]({{< relref "panels/palette" >}})
 
 # Brush controls
-{{< img src="mypaint-footer-bar-brush.jpg" float="right" >}}
+{{< img src="mypaint-footer-bar-brush.jpg" float="right" />}}
 
 The brush controls are clustered on the right side of the footer bar.
 

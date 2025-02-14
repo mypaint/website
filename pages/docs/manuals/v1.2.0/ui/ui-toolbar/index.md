@@ -4,7 +4,7 @@ summary = "This toolbar toggles various parts of the UI"
 weight = 20
 +++
 
-{{< img src="mypaint-ui-toolbar.jpg" float="right" >}}
+{{< img src="mypaint-ui-toolbar.jpg" float="right" />}}
 
 The **User Interface Toolbar** is located right of the [main toolbar]({{< relref "main-toolbar" >}}), it contains
 buttons to toggle parts of the user interface. The UI toolbar is not customisable.

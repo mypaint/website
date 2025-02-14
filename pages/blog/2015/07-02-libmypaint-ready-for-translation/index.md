@@ -9,7 +9,7 @@ MyPaint is well on its way to feature and string freeze, but its brush library(l
 is stable enough to be translated now.
 
 {{<img src="weblate-example-status-page.png" alt="Example status page from WebLate"
-float="right" width="222" >}}
+float="right" width="222" />}}
 
 You can help! The developers of [WebLate](https://weblate.org/), a really nice online
 translation tool, have offered us hosting for translations.

@@ -11,7 +11,7 @@ sectionNavURL = "/docs/manuals/v0.9.0"
 This section is supposed to be a reference on what and how you can do things in
 MyPaint. It does not aim to teach you how to paint.
 
-{{< img src="layout.png" >}}
+{{< img src="layout.png" />}}
 
 # Files
 -   Formats
@@ -48,7 +48,7 @@ MyPaint (currently only the development version) has a menu (Edit\>Preferences\>
 where you can adjust multiple mouse/pen-based functions for controlling the view of the canvas.
 
 By default, they are:
-{{< img src="preferences-buttons.png" float="right" width="20rem" >}}
+{{< img src="preferences-buttons.png" float="right" width="20rem" />}}
 
 |Keyboard & Button Combination|Effect|
 |---|---|
@@ -92,7 +92,7 @@ and windows besides the main painting area.
 -   [Pick context]({{< relref "#tablet-based-canvas-manipulation" >}})
 
 ## Brush Packs
-{{< img src="brush-groups.png" float="right" width="20rem">}}
+{{< img src="brush-groups.png" float="right" width="20rem" />}}
 
 ### Install a Brush Package
 Download the ZIP file, for example from the official [Brush Packages]({{< relref "brush-packages" >}})

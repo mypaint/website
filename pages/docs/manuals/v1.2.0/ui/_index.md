@@ -8,9 +8,9 @@ When MyPaint is first opened, a single relatively sparse window will appear. At 
 background where you can draw (the **canvas**). At the top, there are toolbars and menus. At the bottom, there's a
 status bar with some buttons and indicators clustered in the corners.<!--more-->
 
-{{< img src="mypaint-window-new.jpg" caption="A fresh installation of MyPaint" >}}
+{{< img src="mypaint-window-new.jpg" caption="A fresh installation of MyPaint" />}}
 <br>
-{{< img src="mypaint-window-in-use.jpg" caption="MyPaint can be customised with dockable panels and palettes, all hideable while you work.">}}
+{{< img src="mypaint-window-in-use.jpg" caption="MyPaint can be customised with dockable panels and palettes, all hideable while you work." />}}
 
 <br>
 

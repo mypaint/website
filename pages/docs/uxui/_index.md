@@ -55,7 +55,7 @@ setups, and their workflows.
 # Getting Started
 MyPaint's main window is the entry point from which all user interaction takes place.
 {{< grid columns="4fr 1fr" align="center" >}}
-{{< img caption="MyPaint main window layout" src="main-window.png" alt="A simplified and labelled graphic of MyPaint's UI">}}
+{{< img caption="MyPaint main window layout" src="main-window.png" alt="A simplified and labelled graphic of MyPaint's UI" />}}
 {{< md >}}
 1. [Canvas]({{< relref "canvas" >}})
 2. [Panels]({{< relref "panels" >}})

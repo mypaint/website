@@ -6,7 +6,7 @@ tags = ["legacy"]
 +++
 
 {{< img src="languages-world-map-gfdl.png"
-alt="Map of world languages" title="Languages world map, by Julien1311" >}}
+alt="Map of world languages" title="Languages world map, by Julien1311" />}}
 
 MyPaint is nearing its next stable release, v1.2.0, and that means it's time to
 get the translations finalized. Today marks the start of a week-long translation
@@ -18,7 +18,7 @@ We’d like that figure to be much higher! Can we get to 55% or 60% within a wee
 or complete one or more of the smaller languages?
 
 Latest figure: [{{< img src="https://hosted.weblate.org/widgets/mypaint/-/svg-badge.svg"
-title="Please help translate MyPaint into your language on Weblate" >}}](https://hosted.weblate.org/engage/mypaint/)
+title="Please help translate MyPaint into your language on Weblate" />}}](https://hosted.weblate.org/engage/mypaint/)
 
 # How you can help
 If you’re new to translating software, welcome! We've made it as simple as possible

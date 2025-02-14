@@ -23,7 +23,7 @@ simple and powerful program for digital artists to paint in a natural way.
 # Brushes
 
 {{< img src="BrushStroke003.png" width="20em" float="right"
-caption="A circular brush stroke with the individual dabs visible" >}}
+caption="A circular brush stroke with the individual dabs visible" />}}
 
 But what is a brush stroke really? In MyPaint, a brush stroke consists of a number
 of *dabs*.
@@ -52,7 +52,7 @@ brush modes.
 
 ## Brush settings
 {{< img src="BrushSettings.png" float="right" width="20em"
-caption="The Brush Settings dialog showing some settings for the \"bulk\" brush." >}}
+caption="The Brush Settings dialog showing some settings for the \"bulk\" brush." />}}
 
 So, what makes `charcoal` look different from say, `Ico_Line_Dropping`? What separates
 them are their *brush settings*, which decide how all these dabs look and are distributed.
@@ -86,7 +86,7 @@ for details.
 MyPaint uses an essentially infinite canvas to paint on. You will never run out
 of room as long as your computer can handle the amount of data.
 
-{{< img src="view-menu.png" float="right" caption="MyPaint's view menu" >}}
+{{< img src="view-menu.png" float="right" caption="MyPaint's view menu" />}}
 
 MyPaint's saving automatically picks a size just big enough to contain all of your
 painting. Unless you make a very large image, you don't have to worry about accidentally
@@ -103,7 +103,7 @@ Mirroring the canvas is another important technique. It allows you to easily spo
 mistakes and weird lines by showing you the image in a different way.
 
 ## Background
-{{< img src="background.png" float="right" width="30em" >}}
+{{< img src="background.png" float="right" width="30em" />}}
 
 MyPaint allows changing how the canvas looks and setting a default for all new images.
 The *background* can be made to resemble many different types of media you might

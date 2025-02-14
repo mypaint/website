@@ -10,7 +10,7 @@ clean and modern Discourse site in place of the aging old BBS that went dark rec
 Whether you're an old hand or a new user, come and help us build a fresh community
 of MyPaint users!
 
-[{{< img src="community-forums.png" width="20em" float="right" >}}][forum]
+[{{< img src="community-forums.png" width="20em" float="right" />}}][forum]
 If there's interest, I'd like to start up a monthly art challenge before too long.
 Watch this site and the forums for details. We're already seeking suggestions for
 the first art challenge's theme. Please drop off your suggestions in the open
