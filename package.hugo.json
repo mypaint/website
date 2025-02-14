@@ -1,0 +1,31 @@
+{
+  "author": {
+    "email": "aesara@mailbox.org",
+    "name": "Aesara Binder",
+    "url": "https://www.aesara.org"
+  },
+  "description": "MyPaint's official website",
+  "devDependencies": {
+    "hugo-extended": "latest",
+    "sass-embedded": "latest"
+  },
+  "files": [
+    "public/"
+  ],
+  "homepage": "https://www.mypaint.org",
+  "license": "SEE LICENSE IN README.md",
+  "name": "mypaint-website",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/mypaint/website"
+  },
+  "scripts": {
+	"npm-pack": "hugo mod npm pack",
+    "build-dev": "hugo --environment development",
+    "build-prod": "hugo --environment production",
+    "postpack": "rm -rfv public",
+    "prepack": "hugo --environment production",
+    "start": "hugo server"
+  }
+}

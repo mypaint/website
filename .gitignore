@@ -5,7 +5,10 @@
 /.hugo_build.lock
 hugo_stats.json
 # Sass
-.sass-cache/
+/.sass-cache/
 *.css.map
 *.sass.map
 *.scss.map
+# pnpm
+/node_modules/
+/package.json
