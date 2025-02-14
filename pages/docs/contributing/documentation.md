@@ -103,10 +103,16 @@ They may be created:
 case 2 or 3.**{{< /colour >}}
 
 ## Build the Site Locally
-1. Install [hugo-extended][hugo-release], [dart sass][sass-release], and [git-lfs][git-lfs]
+
+To perform initial setup for the site:
+1. Ensure ``git``, ``git-lfs``, and ``pnpm`` are installed
 2. Clone the website [repository][website]
 3. Run ``git submodule update --init``
-4. Run ``hugo`` or ``hugo server``
+4. Copy ``package.hugo.json`` to ``package.json`` if the latter does not already exist
+5. Install project dependencies: ``pnpm install``
+6. Collect submodule dependencies: ``pnpm run npm-pack``
+7. Install subproject dependencies: ``pnpm install``
+8. Start the server: ``pnpm start``
 
 ### Update Submodules
 When the [website-theme][website-theme] or other submodules are updated, use
