@@ -17,7 +17,7 @@ Operations that:
 ## Items
 - **New**: {{% colour "yellow" %}}Create a new document and set it as the working file{{% /colour %}}
 - **Open...**: Open the file browser and attempt to load the user-specified path.
-- **Open Recent**: [Rollover menu]({{< ref "../hig/menus#rollover" >}}), displays up to {{% colour "yellow" %}}n{{% /colour %}} no. of items previously opened in MyPaint.
+- **Open Recent**: Rollover menu, displays up to {{% colour "yellow" %}}n{{% /colour %}} no. of items previously opened in MyPaint.
     - \> **List of recent files**: Attempt to load this path.
 - Revert
 
@@ -34,9 +34,9 @@ Operations that:
 - Open Previous Scrap
 
 ---
-- {{% colour "yellow" %}}**Frame Enabled**{{% /colour %}}: [Checkbox][hig-checkbox], toggles the [canvas frame][con-frame]
+- {{% colour "yellow" %}}**Frame Enabled**{{% /colour %}}: Checkbox, toggles the [canvas frame][con-frame]
     - Warning: This makes more sense in [view][menu-view], but only after [this issue is fixed](https://github.com/mypaint/mypaint/issues/1227)
-- {{% colour "red" %}}**Symmetrical Painting Active**{{% /colour %}}: [Checkbox][hig-checkbox], toggles [symmetry][con-symmetry]
+- {{% colour "red" %}}**Symmetrical Painting Active**{{% /colour %}}: Checkbox, toggles [symmetry][con-symmetry]
     - Warning: This makes more sense in [view][menu-view].
 
 [menu-view]: #View
@@ -44,4 +44,3 @@ Operations that:
 [con-scrap]: {{< ref "concepts#scraps" >}}
 [con-symmetry]: {{< ref "concepts#symmetry" >}}
 [pref-load-save]: {{< ref "preferences#load-&-save" >}}
-[hig-checkbox]: {{< ref "../hig/activators#checkbox" >}}

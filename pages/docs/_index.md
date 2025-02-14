@@ -31,7 +31,6 @@ which are a useful reference for newcomers and experienced MyPaint developers al
 {{< flex grow="true" >}}
     {{< button content="Backend Documentation" href="backend" src="/icons/wrench-outline.svg" >}}
     {{< button content="Contributor Guides" href="contributing" src="/icons/book-open-variant-outline.svg" >}}
-    {{< button content="Human Interface Guidelines" href="hig" src="/icons/palette-outline.svg" >}}
     {{< button content="UX/UI Specifications" href="uxui" src="/icons/sitemap-outline.svg" >}}
 {{< /flex >}}
 
