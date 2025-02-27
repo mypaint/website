@@ -12,3 +12,4 @@ hugo_stats.json
 # pnpm
 /node_modules/
 /package.json
+/pnpm-lock.yaml
