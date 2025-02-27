@@ -18,7 +18,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/mypaint/website"
+    "url": "https://github.com/mypaint/website"
   },
   "scripts": {
 	"npm-pack": "hugo mod npm pack",
