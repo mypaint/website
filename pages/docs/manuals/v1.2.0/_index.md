@@ -10,6 +10,8 @@ sectionNavURL = "/docs/manuals/v1.2.0"
 
 Welcome to the MyPaint v1.2.0 User manual. Here you can learn the broad strokes of how MyPaint works.<!--more-->
 
+{{< info >}}This section may contain incomplete pages{{< /info >}}
+
 # User Interface
 {{< embedpage "ui" >}}
 
