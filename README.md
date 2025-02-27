@@ -12,7 +12,7 @@ is hosted [here][website-theme].
 [sass]: https://sass-lang.com/dart-sass
 [website]: https://github.com/mypaint/website
 [website-theme]: https://github.com/mypaint/website-theme
-[website-docs]: https://horizon.mypaint.app/en/docs/contributing/documentation/#using-hugo
+[website-docs]: https://www.mypaint.app/en/docs/contributing/documentation/#using-hugo
 
 # License
 All text in the website is licensed under [CC-BY-SA 4.0](LICENSE).
