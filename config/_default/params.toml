@@ -29,7 +29,7 @@ rolling = "https://ci.appveyor.com/project/achadwick/mypaint"
 [social]
 DeviantArt = "http://mypaint.deviantart.com/"
 Discord = "https://discord.gg/TzCbFSCdwf"
-Discourse = "https://community.mypaint.org/"
+Discourse = "https://community.mypaint.app/"
 github = "https://github.com/mypaint"
 Mastodon = "https://mastodon.art/@MyPaint"
 YouTube = "https://www.youtube.com/@MyPaintApp"

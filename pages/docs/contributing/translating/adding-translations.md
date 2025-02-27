@@ -20,7 +20,7 @@ MyPaint supports 30 languages at the time of writing. This excludes different sp
 Translating the text that gets displayed on the screen is now much easier than before. Anyone who uses MyPaint regularly and has good language skills can help:
 
 * Work on translations in [MyPaint's project pages on Weblate][tr].
-* Read a brief tutorial describing how MyPaint gets translated: <http://mypaint.org/blog/2015/11/21/final-translation-push-for-1-2-0/>
+* Read a brief tutorial describing [how MyPaint gets translated]({{< ref "/blog/2015/11-21-final-translation-push-for-1-2-0" >}})
 * Our wiki documentation needs translating too: see [[Writing Documentation]] for details of how you can help.
 
 In the run-up to a release, translations are frozen to give translators a chance to work on a consistent base text.

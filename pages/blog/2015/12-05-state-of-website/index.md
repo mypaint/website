@@ -58,4 +58,4 @@ From all of us at the MyPaint Community, Thank you.
 [Altispeed]: http://altispeed.com
 [lfnw]: https://linuxfestnorthwest.org
 [issue]: https://github.com/mypaint/mypaint.github.io/issues
-[post]: http://mypaint.org/blog/2015/11/21/final-translation-push-for-1-2-0/
+[post]: {{< ref "/blog/2015/11-21-final-translation-push-for-1-2-0" >}}

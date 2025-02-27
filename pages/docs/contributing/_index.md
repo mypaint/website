@@ -19,7 +19,7 @@ src="/icons/translate.svg" >}}
 {{< button content="Troubleshooting" href="troubleshooting" src="/icons/crosshairs.svg" >}}
 {{< button content="Reporting Issues" href="debugging/reporting" src="/icons/bullhorn-outline.svg" >}}
 {{< button content="Testing New Features" href="testing" src="/icons/flask-empty-outline.svg" >}}
-{{< button content="Suggesting Features & Improvements" href="https://community.mypaint.org/c/feature-requests"
+{{< button content="Suggesting Features & Improvements" href="https://community.mypaint.app/c/feature-requests"
 src="/icons/creation-outline.svg" >}}
 {{< /flex >}}
 

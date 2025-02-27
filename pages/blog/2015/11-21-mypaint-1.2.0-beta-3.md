@@ -24,7 +24,7 @@ initialization race condition (mypaint/mypaint#485)
 a workaround.
     - The real fix for a bad translation is to **get involved**, and contribute
 your time and knowledge to make a [**better translation**](https://hosted.weblate.org/engage/mypaint/)!
-    - It's really easy to get translating: [How to contribute better translations to MyPaint](http://mypaint.org/blog/2015/11/21/final-translation-push-for-1-2-0/)
+    - It's really easy to get translating: [How to contribute better translations to MyPaint]({{< ref "/blog/2015/11-21-final-translation-push-for-1-2-0" >}})
 - Reposition Layer is now in the layer context menu in the layers panel (mypaint/mypaint#489)
 - Fix an annoying bug in the accelerator map editor (mypaint/mypaint#497)
 - Assorted Windows build fixes.

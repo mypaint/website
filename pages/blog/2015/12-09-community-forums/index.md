@@ -31,9 +31,9 @@ and to Albert Westra for building and running the new community forums! I'm hopi
 that we'll be able to grow a friendly, honest, and welcoming community of people.
 
 [sponsor]: http://www.altispeed.com/
-[forum]: http://community.mypaint.org/
-[forum.welcome]: http://community.mypaint.org/t/introduce-yourself/39
-[forum.challengesuggest]: http://community.mypaint.org/t/suggestions-for-the-first-art-challenge/38
-[forum.artshow]: http://community.mypaint.org/c/artshowcase
-[forum.screenshots]: http://community.mypaint.org/t/screenshots-of-1-2-0-during-development/44
+[forum]: https://community.mypaint.app/
+[forum.welcome]: https://community.mypaint.app/t/introduce-yourself/39
+[forum.challengesuggest]: https://community.mypaint.app/t/suggestions-for-the-first-art-challenge/38
+[forum.artshow]: https://community.mypaint.app/c/artshowcase
+[forum.screenshots]: https://community.mypaint.app/t/screenshots-of-1-2-0-during-development/44
 [discourse]: http://discourse.org

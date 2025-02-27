@@ -12,7 +12,7 @@
   "files": [
     "public/"
   ],
-  "homepage": "https://www.mypaint.org",
+  "homepage": "https://www.mypaint.app",
   "license": "SEE LICENSE IN README.md",
   "name": "mypaint-website",
   "private": true,

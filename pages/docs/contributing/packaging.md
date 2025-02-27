@@ -9,7 +9,7 @@ forums under the [Porting MyPaint Category][source.porting], and ask away
 there.You can also ask questions there if you are having trouble 
 building MyPaint.
 
-[source.porting]: http://community.mypaint.org/c/development/porting
+[source.porting]: http://community.mypaint.app/c/development/porting
 
 ### Packaging
 Get official source tarballs
@@ -36,7 +36,7 @@ and ask away there.
 [packing.releases]: https://github.com/mypaint/mypaint/releases
 [packing.wiki]: https://github.com/mypaint/mypaint/wiki/Packaging
 [packing.readme]: https://github.com/mypaint/mypaint/blob/master/README.md
-[packing.porting]: http://community.mypaint.org/c/development/porting
+[packing.porting]: http://community.mypaint.app/c/development/porting
 
 ### Existing packaging projects
 

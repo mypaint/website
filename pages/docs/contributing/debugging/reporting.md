@@ -15,7 +15,7 @@ for those wanting help or a place to chat.
 
 [code.mypaint]: https://github.com/mypaint/mypaint/issues
 [code.libmypaint]: https://github.com/mypaint/libmypaint/issues
-[code.forum]: http://community.mypaint.org/c/development
+[code.forum]: http://community.mypaint.app/c/development
 
 ### Before reporting
 
@@ -71,7 +71,7 @@ for those wanting help or a place to chat.
 3. **Click the “New Topic” button**, then fill in the topic template, and follow its instructions.
 
 4. Fill out the topic template, and follow its instructions.
-  * Please keep in mind our [reporting guidelines](#reporting-guidelines) and Community Forums [FAQ Page](https://community.mypaint.org/faq) when filling it out.
+  * Please keep in mind our [reporting guidelines](#reporting-guidelines) and Community Forums [FAQ Page](https://community.mypaint.app/faq) when filling it out.
 
 5. **Give it a good title**.
   * For our Community forums, it a good idea to either form your topic as a question, or state the problem and/or task you wish to accomplish.
@@ -132,8 +132,8 @@ If one of our Moderators or Staff on the MyPaint Community Forums changes the ti
 * [[Debugging Tablet Issues on Windows]]
 
 [tracker]: https://github.com/mypaint/mypaint/issues
-[community]: https://community.mypaint.org
-[support]: https://community.mypaint.org/c/support
+[community]: https://community.mypaint.app
+[support]: https://community.mypaint.app/c/support
 [build]: https://github.com/mypaint/mypaint/blob/master/README.md#build-and-install
-[chat]: https://community.mypaint.org/chat/support/623
-[feature-request]: https://community.mypaint.org/c/feature-requests
+[chat]: https://community.mypaint.app/chat/support/623
+[feature-request]: https://community.mypaint.app/c/feature-requests

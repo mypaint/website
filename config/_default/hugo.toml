@@ -1,5 +1,5 @@
 title = "MyPaint"
-baseURL = 'https://mypaint.org/'
+baseURL = 'https://www.mypaint.app/'
 theme = "mypaint"
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true

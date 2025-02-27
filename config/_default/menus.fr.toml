@@ -20,7 +20,7 @@
 	identifier = 'communitypage'
 	name = 'Community'
 	title = "MyPaint's community forums"
-	url = 'https://community.mypaint.org'
+	url = 'https://community.mypaint.app'
 	weight = 40
 [[main]]
 	identifier = 'donatepage'

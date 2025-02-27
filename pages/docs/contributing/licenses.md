@@ -72,7 +72,7 @@ The declaration may appear in human-readable form on a website (such as GitHub o
 the MyPaint community forums) alongside the work, or embedded into the work's metadata.
 
 ## Website (\*.md)
-> .md files are used to populate the body of pages in the MyPaint website (https://mypaint.org)
+> .md files are used to populate the body of pages in the MyPaint website (https://www.mypaint.app)
 
 To be included in the MyPaint website, .md files must be dedicated under the
 [Creative Commons Attribution 4.0 International][CC-BY] license.

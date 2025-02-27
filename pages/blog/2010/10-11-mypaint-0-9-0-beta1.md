@@ -15,5 +15,5 @@ be out in between 2 and 4 weeks time.
 We are now in string freeze for MyPaint 0.9.0, which means that it is time to do
 translations. We could always need more help with this, especially for supporting
 new languages. In addition we are in need of people who would like to write documentation. 
-If you want to help out, please [get in touch with us](http://mypaint.org/about/).
+If you want to help out, please [get in touch with us]({{< ref "/#socials" >}}).
 
